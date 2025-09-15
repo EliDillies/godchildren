@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Mon site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Godchildren & Godparents</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    .item {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .names {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+
+    .content {
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .content img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 1rem;
+      border-radius: 8px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur mon site !</h1>
-  <nav>
-    <a href="index.html">Accueil</a> |
-    <a href="about.html">À propos</a> |
-    <a href="contact.html">Contact</a>
-  </nav>
-  <p>Ceci est la page d'accueil.</p>
+
+  <div class="container">
+    <header>
+      <h1>✨ Godchildren & godparents ✨</h1>
+      <p><b>Godchildren</b>, look for your name in the list below and you'll find your co-godchildren and the riddle you need to solve to find your godmother or godfather 🔎. Once you think you found them, let them know! 📩</p>
+      <p>If you can't find your name but registered as a godchild, it probably means that your godparent has not yet submitted their riddle. Be patient! 😉</p>
+      <p><b>Godparents</b>, look for your riddle in the list below and you'll find your godchildren 👶.</p>
+      <p>Have fun! 🫶🏼</p>
+
+    <div class="item">
+      <div class="names">Rowan & Imane Rouidi</div>
+      <div class="content">
+        <p>My WhatsApp photo holds a clue, a story you may already know.</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="names">Rachel Thomas & Wiktoria Januszek</div>
+      <div class="content">
+        <p>Lucky you, you have 2 clues!</p>
+        <img src="resources/douglas.jpeg" alt="Wordsearch">
+        <p>EPVHMBT</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="names">Nicole, Lily Ainslie & Charlie</div>
+      <div class="content">
+        <img src="resources/karen.jpeg" alt="Karen" style="width: 400px; height: auto;">
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="names">Anna Mikhneva, Jay & Aloïs Rautureau</div>
+      <div class="content">
+        <img src="resources/eli.jpeg" alt="Eli">
+      </div>
+    </div>
+
+    <!-- Add more .item blocks as needed -->
+
+  </div>
+
 </body>
 </html>
